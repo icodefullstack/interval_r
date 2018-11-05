@@ -1,2 +1,0 @@
-Text in file 1. And this is being edited.
-Text in file 2.
