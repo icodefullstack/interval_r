@@ -14,3 +14,15 @@
     font-weight: bold;
     margin-bottom: 8px;
 }
+#svgHolder{
+    border: #38c 1px solid;
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+svg{
+    border: 1px solid red;
+}
