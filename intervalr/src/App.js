@@ -7,19 +7,22 @@ import Selector from './drawer/Selector.js';
 class App extends Component {
   render() {
     return(
-      <div className="App">
+      <div id="App">
+        {/*
+          <header className="App-header">
+            <img src={logo} className="App-logo" alt="logo" />
+            <h1>Welcome to IntervalR</h1>
+          </header>
+        */}
 
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1>Welcome to IntervalR</h1>
-        </header>
         <div id="chest">
         <Selector></Selector>
+  {/*
         <Drawer title="Backgrounds"></Drawer>
         <Drawer title="Notifications"></Drawer>
         <Drawer title="Numbers"></Drawer>
         <Drawer title="Commands"></Drawer>
-        
+  //*/}
 
         </div>
         <div id="composition">

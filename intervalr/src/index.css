@@ -6,9 +6,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+  border: 1px solid gray;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+}
+#App{
+  width: 720px;
+
+  margin: auto;
+  min-height: 100vh;
+  box-sizing: border-box;
+
+}
+/* #svgHolder{
+  border: 1px solid blue;
+  width: 80%;
+} */
+svg{
+  width: 100%;
+  border: 1px solid lightblue;
+  box-shadow: 0px 0px 12px gray;
+
 }
