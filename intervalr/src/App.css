@@ -1,25 +1,7 @@
-.App {
-  text-align: center;
+#Menu:hover{
+transform: rotate(90deg);
 }
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #38c;
-  min-height: 30vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-#chest{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+#App{
+  overflow: hidden;
+  border: 1px solid red;
 }
